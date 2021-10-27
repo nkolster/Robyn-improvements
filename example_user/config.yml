@@ -1,0 +1,8 @@
+source_medium: ['googlecpc','bingcpc','awinaffiliate','facebookcpc','youtube-cpcsocial_ads','googledisplay','pepper']
+facebook_split: False
+colnames:
+  revenue_col: "sum__markov_value"
+  totalcost_col: "totalcost"
+  # impressions_col: "impressions"
+  # clicks_col: "clicks"
+  date_col: "__timestamp"
