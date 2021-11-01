@@ -74,7 +74,6 @@ tryCatch({
 })
 
 client_name <- parsed_args[['user']]
-# parsed_args[['user']] = "bettzeit"
 # Check whether client name is defined
 if(is.null(parsed_args[['user']])) {
   cat('Error: Client name is required but not supplied\n')
